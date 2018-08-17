@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-boilerplate",
-  "version": "2.1.0",
-  "description": "Minimalistic ES6 React boilerplate",
+  "name": "guesssmart-app",
+  "version": "1.0",
+  "description": "A forum for posting videos and discussion",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -16,7 +16,7 @@
     "webpack:dev": "webpack --colors",
     "webpack:prod": "webpack --config webpack.production.config.js --colors"
   },
-  "author": "Kliment Petrov <kleopetroff@gmail.com>",
+  "author": "Dhinesh S<s.dhinezh@gmail.com>",
   "license": "MIT",
   "jest": {
     "setupFiles": [
