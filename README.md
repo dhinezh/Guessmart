@@ -1,8 +1,8 @@
-# ES6 React boilerplate using Webpack
+# GuessSmart
 
 [![Travis](https://img.shields.io/travis/KleoPetroff/react-webpack-boilerplate/master.svg?style=flat-square)](https://github.com/KleoPetroff/react-webpack-boilerplate) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Simple and optimized React boilerplate. It includes: 
+It includes: 
 
 - [x] React 16.4.2
 - [x] ECMAScript 6 and JSX support
@@ -23,7 +23,7 @@ Simple and optimized React boilerplate. It includes:
 
 Make sure you have the latest Stable or LTS version of Node.js installed.
 
-1. `git clone https://github.com/KleoPetroff/react-webpack-boilerplate.git`
+1. `git clone https://github.com/dhinezh/Guessmart.git`
 2. Run `npm install` or `yarn install`
 3. Start the dev server using `npm start`
 3. Open [http://localhost:8080](http://localhost:8080)
@@ -53,7 +53,3 @@ The coverage report consists of an HTML reporter, which can be viewed in the bro
 ## Production code
 
 Run `npm run production`. The production-ready code will be located under `dist` folder.
-
-## Licence
-
-_react-webpack-boilerplate_ is available under MIT.
