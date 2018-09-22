@@ -1,6 +1,6 @@
 {
   "name": "guesssmart-app",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "A forum for posting videos and discussion",
   "main": "index.js",
   "scripts": {
@@ -38,10 +38,10 @@
   },
   "dependencies": {
     "cross-env": "5.2.0",
-    "react": "16.4.2",
-    "react-dom": "16.4.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-hot-loader": "4.3.4",
-    "react-router-dom": "4.3.0"
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -50,7 +50,6 @@
     "babel-jest": "23.0.1",
     "babel-loader": "7.1.4",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-react-boilerplate": "1.1.1",
     "babel-preset-react-hmre": "1.1.1",
@@ -74,7 +73,7 @@
     "node-sass": "4.9.3",
     "open-browser-webpack-plugin": "0.0.5",
     "react-addons-test-utils": "15.6.2",
-    "react-test-renderer": "16.4.2",
+    "react-test-renderer": "16.5.2",
     "rimraf": "2.6.2",
     "sass-loader": "7.1.0",
     "style-loader": "0.22.1",
