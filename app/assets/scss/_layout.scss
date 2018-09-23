@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @media #{$smartphones} {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

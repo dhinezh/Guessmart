@@ -7,6 +7,11 @@
       "jsx": true
     }
   },
+  "plugins": [
+      "react",
+      "jsx-a11y",
+      "import"
+  ],
   "env": {
     "browser": true,
     "node": true,
@@ -22,6 +27,12 @@
     "global-require": "off",
     "semi": "warn",
     "arrow-body-style": "off",
-    "no-multiple-empty-lines": ["warn", {"max": 1}]
+    "no-multiple-empty-lines": ["warn", {"max": 1}],
+    "indent": ["error", 2],
+    "no-mixed-spaces-and-tabs": [0],
+    "no-tabs": 0,
+    "skipBlankLines": 0,
+    "ignoreComments": 0,
+    "no-trailing-spaces": [2, { "skipBlankLines": true }]
   }
 }

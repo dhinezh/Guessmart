@@ -1,5 +1,4 @@
-$color: #262828;
-
-body {
-  color: $color;
-}
+@import '../libraries/reset.css';
+@import '../libraries/bootstrap-grid.min.css';
+@import './utility';
+@import './layout';

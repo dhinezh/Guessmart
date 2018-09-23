@@ -80,8 +80,28 @@ const config = {
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [
-            'css-loader',
-            { loader: 'sass-loader', query: { sourceMap: false } },
+            {
+              loader: 'css-loader',
+              options: {
+                minimize: true || {/* CSSNano Options */}
+              }
+            },
+            {
+              loader: 'postcss-loader',
+              options: {
+                ident: 'postcss',
+                plugins: [
+                  require('autoprefixer'),
+                  require('cssnano')()
+                ]
+              }
+            },
+            {
+              loader: 'sass-loader',
+              query: {
+                sourceMap: false,
+              },
+            }
           ],
           publicPath: '../'
         }),
