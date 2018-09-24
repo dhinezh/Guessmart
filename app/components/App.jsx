@@ -21,7 +21,7 @@ class App extends Component {
             <Tab label="Sign Up" />
           </Tabs>
           {/* {value === 0 && <TabContainer>Item One</TabContainer>}
-					{value === 1 && <TabContainer>Item Two</TabContainer>} */}
+          {value === 1 && <TabContainer>Item Two</TabContainer>} */}
         </div>
       </div>
     );
