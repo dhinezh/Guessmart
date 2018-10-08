@@ -4,7 +4,7 @@
 
 /*----------  Spacing utilities  ----------*/
 
-$spaceamounts: (5, 10, 15, 20, 25, 30);
+$spaceamounts: (0, 5, 10, 15, 20, 25, 30);
 $sides: (top, bottom, left, right);
 
 @each $space in $spaceamounts {
